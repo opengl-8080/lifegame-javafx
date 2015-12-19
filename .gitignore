@@ -1,0 +1,9 @@
+.classpath
+.gradle/
+.project
+.settings/
+build/
+derby.log
+bin/
+lifegame_db/
+doc/image/
