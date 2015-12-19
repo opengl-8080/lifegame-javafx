@@ -13,7 +13,7 @@ public class CommandLineArguments {
     
     public int getGameDefinitionId() {
         if (!this.args.containsOption("id")) {
-            return 1;
+            return 5;
         } else {
             List<String> ids = this.args.getOptionValues("id");
             

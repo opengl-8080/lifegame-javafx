@@ -45,7 +45,7 @@ public class MainController implements Initializable {
         this.setupLifeGameBoard();
         this.setupGame();
         
-        this.schedule.scheduleWithFixedDelay(this::nextStep, 1000, 200, TimeUnit.MILLISECONDS);
+        this.schedule.scheduleWithFixedDelay(this::nextStep, 3000, 200, TimeUnit.MILLISECONDS);
     }
     
     private void setupPaneSize() {
